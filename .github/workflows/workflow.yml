@@ -1,7 +1,9 @@
 name: workflow
 
-on: 
-  - push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   ci:
